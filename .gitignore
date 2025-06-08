@@ -1,0 +1,263 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+*.local
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Server environment
+server/.env
+server/.env.local
+server/.env.development.local
+server/.env.test.local
+server/.env.production.local
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output/
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+out
+
+# Nuxt.js build / generate output
+.nuxt
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+storybook-static
+
+# Temporary folders
+tmp/
+temp/
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Webpack
+.webpack/
+
+# Electron-builder output
+/dist_electron/
+
+# Local Netlify folder
+.netlify
+
+# SvelteKit build / generate output
+.svelte-kit
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Rollup
+.rollup.cache
+
+# Snowpack dependency directory (https://snowpack.dev/)
+web_modules/
+
+# Docusaurus cache and generated files
+.docusaurus
+
+# Sapper build output
+__sapper__/
+
+# Local development
+.local
+
+# Vercel
+.vercel
+
+# Turbo
+.turbo
+
+# Prisma
+prisma/dev.db
+prisma/dev.db-journal
+
+# Supabase
+.branches
+.temp
+
+# Testing
+coverage/
+.coverage
+
+# Playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+# MSW
+public/mockServiceWorker.js
+
+# Wrangler
+.wrangler
+
+# Sentry Config File
+.sentryclirc
+
+# Local development files
+*.local.js
+*.local.ts
+*.local.json
+
+# Backup files
+*.backup
+*.bak
+*.orig
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Certificate files
+*.pem
+*.key
+*.crt
+*.cert
+
+# API keys and secrets (extra protection)
+**/secrets/
+**/keys/
+**/*secret*
+**/*key*
+**/*token*
+**/*password*
+
+# Tavus specific
+tavus-*.json
+conversation-*.json
+
+# User uploads
+uploads/
+media/
+videos/
+audio/
+
+# Cache directories
+.cache/
+cache/
+
+# Temporary files
+.tmp/
+.temp/
